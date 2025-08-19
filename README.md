@@ -12,7 +12,7 @@ Production-grade DevOps project that provisions AWS infrastructure using **Terra
 
 ## Repo Map
 
-aws-cloud-infra-devops-eks/
+<pre> ```bash aws-cloud-infra-devops-eks/
 ├─ docs/
 │ ├─ architecture-diagram.png
 │ └─ setup-guide.md
@@ -29,7 +29,7 @@ aws-cloud-infra-devops-eks/
 │ ├─ app-service.yaml
 │ └─ ingress.yaml
 └─ docker/
-└─ Dockerfile
+└─ Dockerfile ``` </pre>
 
 
 ## Getting Started
