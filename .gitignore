@@ -1,0 +1,40 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.*
+terraform/backend.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+crash.log
+
+# AWS CLI profiles (never commit creds)
+.aws/
+
+# Kubernetes / kubeconfig
+kubeconfig
+kubeconfig.yaml
+
+# Docker
+*.log
+
+# Node/Python (if you add later)
+node_modules/
+__pycache__/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Env / Secrets
+.env
+.env.*
